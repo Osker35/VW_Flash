@@ -140,3 +140,19 @@ cython_debug/
 # Built lzss binary on Unix/MacOS
 lib/lzss/lzss
 gui_config.json
+
+# macOS metadata
+.DS_Store
+
+# macOS app bundles / disk images
+*.app/
+*.dmg
+
+# Firmware / ECU binary files (proprietary, vehicle-specific)
+Stock/
+Tune/
+Tune_ORIGINAL_BACKUP/
+Unlock/
+
+# Vehicle data logs
+logs/Bench*.csv
